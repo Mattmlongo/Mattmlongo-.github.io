@@ -1,0 +1,273 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.orginials-container {
+  padding: 50px 5px;
+}
+
+.orginials-button {
+  background-color: #0aabf0;
+  border-bottom: 2px solid #005a9f;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  margin: 15px auto;
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  width: 250px;
+}
+
+.orginials-button:hover {
+  background-color: #005a9f;
+}
+
+.orginials-button-text {
+  padding: 10px;
+}
+
+
+.image-mask-darken {
+  position: relative;
+}
+
+.image-overlay:before {
+  background-color: rgba(0,0,0,0.2);
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+
+}
+
+/* HEADER */
+.orginials-header {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.orginials-logo-container {
+  width: 150px;
+}
+
+.orginials-nav {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.company-logo {
+  padding: 10px 30px;
+  width: 100px;
+}
+
+.orginials-nav-element {
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+
+.orginials-nav-element:last-child {
+  padding-left: 0;
+}
+
+/* HERO */
+.orginials-main-photo {
+  align-items: center;
+  background-color: #dbdbdb;
+  background-image: url();
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+
+
+.orginials-intro-content {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
+.airbnb-intro-title {
+  font-size: 64px;
+}
+
+.airbnb-intro-subtitle {
+  font-size: 16px;
+}
+
+.orginials-middle {
+  align-items: center;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 550px) {
+  .orginials-middle {
+    flex-direction: row;
+  }
+}
+
+.orginials-middle-box {
+  border: 1px solid #dbdbdb;
+  width: 96%;
+}
+
+@media (min-width: 550px) {
+  .orginials-middle-box {
+    width: 48%;
+  }
+}
+
+.orginials-middle-content-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 75px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.orginials-middle-icon {
+  padding-right: 12px;
+}
+
+.orginials-middle-titles {
+  background-color: #edefed;
+  font-size: 14px;
+  padding: 12px 18px;
+}
+
+.orginials-middle-content {
+  line-height: 1.4;
+  padding-right: 12px;
+}
+
+/* NEIGHBORHOODS */
+.orginials-neighborhood-container {
+  padding: 50px 5px;
+}
+
+.orginials-neighborhood-title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.orginials-neighborhood-subtitle {
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.orginials-three-neighborhood-container {
+  justify-content: center;
+  display: flex;
+}
+
+.orginials-neighborhood-container {
+  margin: 1%;
+  width: 30%;
+}
+
+/* Note that here we are doing nested flex boxes */
+.orginials-neighborhood-header {
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* approximate estimate */
+  justify-content: space-around;
+  text-align: center;
+}
+/* 
+Images */
+.image1 { background-image: url('/Image/Image1.jpg');}
+.image2 { background-image: url('/Image/Image2.jpg');}
+.image3 { background-image: url('/image/Image3.jpg');}
+
+.orginials-neighborhood-header-content {
+  position: absolute;
+}
+
+.orginials-neighborhood-title {
+  font-size: 24px;
+}
+
+.orginials-neighborhood-details {
+  background-color: #ffffff;
+  font-size: medium;
+  line-height: 1;
+  margin: 0;
+  min-height: 50px; 
+  padding: 10px;
+}
+
+
+
+hr {
+  border: 1px solid rgba(255,255,255,0.2);
+  margin-bottom: 40px;
+  width: 95%;
+}
+
+
+/* last section */
+
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+
+img {
+  max-width: 60%;
+  padding-right: 25px;
+  padding-left: 25%;
+}
+
+
+/* .image4 {
+  flex-basis: 70%;
+  order: 2;
+} */
+
+
+.bottom-text {
+  color: #CD5C5C;
+  font-size: 23px;
+  /* margin-left: 10%;
+  padding-left: 25px;
+  padding-right:25%;
+  font: ;  */
+}
+.orginials-footer {
+  align-items: center;
+  background-color: #3C6DFF;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+}
