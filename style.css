@@ -287,9 +287,9 @@ margin: 3%;
 
 /* 
 Images */
-.image1 { background-image: url('Image/Image1.jpg')}
-.image2 { background-image: url('Image/Image2.jpg')}
-.image3 { background-image: url('Image/Image3.jpg')}
+.image1 { background-image: url('/image/Image1.jpg')}
+.image2 { background-image: url('/image/Image2.jpg')}
+.image3 { background-image: url('/image/Image3.jpg')}
 
 .orginails-neighborhood-header-content {
   position: absolute;
