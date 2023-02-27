@@ -161,7 +161,7 @@ ul {
 /* HERO */
 .orginails-main-photo {
   align-items: center;
-  background-image:url(/Image/HeroImage.jpg);
+  background-image:url(./image/Hero.jpg);
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -287,9 +287,10 @@ margin: 3%;
 
 /* 
 Images */
-.image1 { background-image: url('./image/Image1.jpg')}
-.image2 { background-image: url('./image/Image2.jpg')}
-.image3 { background-image: url('./image/Image3.jpg')}
+.image1 { background-image: url('./image/Imageone.jpg')}
+.image2 { background-image: url('./image/Imagetwo.jpg')}
+.image3 { background-image: url('./image/Imagethree.jpg')}
+
 
 .orginails-neighborhood-header-content {
   position: absolute;
