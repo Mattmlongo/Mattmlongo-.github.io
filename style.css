@@ -21,7 +21,7 @@ font-weight: bold;
 }
 
 
-/* HEADER */
+/* HERO */
 .orginails-button {
   background-color: #4471FF;
   border:19px solid #4471FF;
@@ -60,7 +60,7 @@ font-weight: bold;
   text-transform: uppercase;
 }
 
-
+/* Navigation */
 .logo {
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@ ul {
 
 
 
-/* Dropdown */
+/* Nav- Dropdown */
 
 .dropdown-menu {
   background-color: rgb(255, 255, 255);
@@ -245,7 +245,7 @@ margin: 3%;
 
 
 
-/* services */
+/* Services */
 .orginails-neighborhood-container {
   padding: 50px 5px;
 }
@@ -317,7 +317,7 @@ Images */
 
 
 
-/* last section */
+/* Bottom section */
 img {
   max-width: 100%;
   max-height: 100%;

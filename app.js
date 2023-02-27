@@ -1,5 +1,5 @@
 
-//NavBtn -
+//Navigation
 
 document.getElementById('menu-1-button').addEventListener('click', openMenuone);
 
