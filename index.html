@@ -15,7 +15,7 @@
 
   <section class="orginails-nav">
     <div>
-      <ul class="nav">
+      <ul id="nav">
         <img class="logo" src="./image/OriginailLogo.png"  alt="OrgiNails Logo">
         <li id="menu-2-button">Home</li>
         <li id="menu-1-button">Services</li>
@@ -33,7 +33,7 @@
   
   </ul>
 </aside>
-   </header>
+</header>
 
 
 <section class="orginails-main-photo image-overlay">
@@ -41,10 +41,78 @@
     <p class="orginails-intro-title">Exceptional Skill.</p> 
     <p class="orginails-intro-subtitle">Extraordinary Service.</p>
     <div class="orginails-button">
-      <h3 class="orginails-button-text">Make an Appointment</h3>
+      <h3 id = "myappBtn" class="orginails-button-text">Make an Appointment</h3>
     </div>
   </div>
+  
 </section>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Appointment Modal  -->
+  <div class="modal-content">
+    <div class="close"> X </div>
+    <p> Business Hours:  Monday - Saturday 9:00AM - 5:00PM </p>
+    <form>
+      <fieldset>
+        <legend>Appointment</legend>
+
+        <h2>First,Last Name </h2>
+        <input id="field-info" type="text" id="guestname">
+
+        <h2>Phone Number</h2>
+        <input id="field-info" type="text" id="guestnumber">
+
+        <h2>Email Address</h2>
+        <input id="field-info" type="text" id="guestemail">
+
+        <h2>Appointment</h2>
+        <div type="text" id="apptype">
+          <input type="radio" id="radio1" name="quality-feedback">
+          <label for="radio1"><span>Manicures</span></label>
+          <input type="radio" id="radio2" name="quality-feedback">
+          <label for="radio1"><span>Pedicures</span></label>
+          <input type="radio" id="radio3" name="quality-feedback">
+          <label for="radio1"><span>Nail Resteration</span></label>
+        </div>
+
+        <h2>Schduleing</h2>
+        <select id="#">
+          <optgroup label="Day">
+            <option value=”schedule-day”>Monday</option>
+            <option value=”schedule-day”>Tuesday</option>
+            <option value=”schedule-day”>Wednesday</option>
+            <option value=”schedule-day”>Thursday</option>
+            <option value=”schedule-day”>Friday</option>
+            <option value=”schedule-day”>Saturday</option>
+          </optgroup>
+          </select>
+          <select id="#">
+            <optgroup label="Time">
+              <option value=”schedule-time”>9:00AM</option>
+              <option value=”schedule-time”>10:00AM</option>
+              <option value=”schedule-time”>11:00AM</option>
+              <option value=”schedule-time”>12:00PM</option>
+              <option value=”schedule-time”>1:00PM</option>
+              <option value=”schedule-time”>2:00PM</option>
+              <option value=”schedule-time”>3:00PM</option>
+              <option value=”schedule-time”>4:00PM</option>
+              <option value=”schedule-time”>5:00PM</option>
+            </optgroup>
+            </select>
+            <div>
+        <input id="app-sumbit" type="submit" value="Submit Appointment">
+      </div>
+      </fieldset>
+    </form> 
+  </div>
+</div>
+
+
+
 
 <section>
 <div class="prolog-background">
@@ -116,5 +184,14 @@
   <hr>
   <div class="orginails-copyright">©OrgiNails 2023.</div>
 </footer>
+
+
+
+
+
+
+
+
+
 </body>
 </html>
